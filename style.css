@@ -1,0 +1,85 @@
+*{
+    text-transform: capitalize;
+   
+}
+h1{
+    animation:head 1s ease-in-out;
+    transition: 0.5s;
+}
+@keyframes head{
+    0%{
+        transform: translateX(-100%);
+        transition: 0.5s;
+    }
+}
+h3{
+    text-align: center;
+}
+span{
+    color: rgb(39, 238, 55);
+}
+img{
+    align-items: end;
+    cursor: pointer;
+}
+h4{
+    font-size: medium;
+    font-weight: bolder;
+    font-style: italic;
+    border: 15px;
+  border-color: rgb(243, 189, 107)107;
+  
+}
+.audio{
+   
+    padding-left: 5%;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    width: 40%;
+    transition: 0.5s;
+}
+.audio:hover{
+    border:5px solid rgb(6, 233, 6);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+
+.content{
+    transform:translateX(30px);
+}
+.border{
+    padding-left: 30%;
+    
+}
+ol{
+    border: 2px solid salmon;
+    width: 40%;
+    padding: 20px;
+}
+h2{
+    padding-left: 38%;
+    margin: 20px;
+}
+.button {
+    display: inline-block;
+    padding-left: 80%;
+
+}
+.button button{
+    padding: 20px 40px;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: red;
+    color: white;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+footer{
+    background-color: rgb(243, 168, 243);
+    border-radius: 15px;
+}
+.id content:hover{
+    width: 40%;
+}
